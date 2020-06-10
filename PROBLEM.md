@@ -9,7 +9,7 @@
 
 ## 💻 예제 화면
 
-1. [메인 페이지 - `subway.html`](https://madesignoper.github.io/site/week2/)
+1. [메인 페이지 - `subway.html`]
 
 <br>
 
