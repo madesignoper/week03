@@ -1,0 +1,74 @@
+* {
+  background-color: #f7d343;
+}
+header p {
+  border: 5px solid #168119;
+}
+header h1 {
+  text-align: center;
+  color: #168119;
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+}
+
+a:hover {
+  color: royalblue;
+}
+a:visited {
+  color: #168119;
+}
+
+nav {
+  text-align: center;
+}
+nav > h2 {
+  color: palevioletred;
+  text-decoration: underline;
+}
+
+nav ol {
+  font-weight: bold;
+  font-size: 1.3em;
+  list-style: none;
+  font-style: italic;
+}
+
+#eggmayo {
+  border: 5px solid #164681;
+}
+#rotisserie {
+  border: 5px solid #a41ea1;
+}
+#club {
+  border: 5px solid #daf7a6;
+}
+.description {
+  background-color: papayawhip;
+}
+
+.kcal {
+  background-color: peru;
+}
+.sauce {
+  color: rebeccapurple;
+}
+ul {
+  list-style: square;
+}
+
+img {
+  width: 30%;
+  height: 20%;
+}
+
+section input[type="text"]:focus {
+  background-color: green;
+}
+.mysub {
+  border: 5px solid #ff5733;
+}
+
+footer {
+  text-align: right;
+  border: 5px solid skyblue;
+}
