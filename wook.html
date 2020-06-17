@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+    *{background-color:#f7d343}
+    h1{color:#168119; text-align: center; font-size: 50px;}
+    header p{border:5px solid #168119 }
+    a:visited{color:#168119}
+    a:hover{color:royalblue}
+    #wook{text-align:center;}
+    #wook h2{color:palevioletred; text-decoration:underline}
+    ol{font-weight:bold; font-size:1.3em;font-style :oblique; list-style:none;}
+    #eggmayo{border:5px solid blue;}
+    #rotisserie{border:5px solid yellowgreen;}
+    #club{border:5px solid pink;}
+    #papayawhip{background-color: papayawhip}
+    #peru{background-color: peru}
+    #rebeccapurple, ul{color : rebeccapurple; list-style : square;}
+    img{ max-width:30%; max-height:20%;}
+    input:focus{outline-color: red;background-color:#168119}
+    footer{text-align:right; border:5px solid skyblue}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Subway Sandwiches</h1>
+        <p>
+            서브웨이는 1965년 코네티컷 주의 브릿지포트(bridgeport)라는 곳에서 뉴욕 브로클린 출생의 17세 소년 프레드 드루카가 가족 친구인 의사 피터 벅에게 1000달러를 빌려 시작했습니다.
+        </p>
+        <a href="http://subway.co.kr/" target=_blank>홈페이지 바로가기</a>
+    </header>
+
+    <main>
+        <section>
+            <nav id="wook">
+                <h2>서브웨이 인기 샌드위치</h2>
+                <ol>
+                    <li>1위 : 에그마요</li>
+                    <li>2위 : 로티세리 바비큐</li>
+                    <li>3위 : 서브웨이 클럽</li>
+                </ol>
+            </nav>
+            <artcle id="eggmayo">
+                <h3>에그마요</h3>
+                <p id="papayawhip">설명 : 친환경 인증 받은 농장에서 생산된 달걀과 고소한 마요네즈가 만나 더 부드러운 스테디셀러</p>
+                <p id="peru">칼로리 : 맛있게 먹으면 0kcal</p>
+                <p id="rebeccapurple">추천소스</p>
+                <nav>
+                    <ul>
+                        <li>랜치드레싱</li>
+                        <li>스위트칠리</li>
+                    </ul>
+                </nav>
+                <img src="http://subway.co.kr/images/menu/sandwich_cl06.jpg" alt="애긍">
+            </artcle>
+            <artcle id="rotisserie">
+                <h3>로티세리 바비큐 치킨</h3>
+                <p id="papayawhip">설명 : 촉촉한 바비큐 치킨의 풍미가득, 손으로 찢어 더욱 맛있다</p>
+                <p id="peru">칼로리 : 맛있게먹어도 350kcal</p>
+                <P id="rebeccapurple">추천소스</P>
+                <nav>
+                    <ul>
+                        <li>스위트칠리</li>
+                        <li>유자폰즈</li>
+                    </ul>
+                </nav>
+                <img src = "http://subway.co.kr/images/menu/sandwich_cl04.jpg" alt="맛있음">
+            </artcle>
+            <artcle id="club">
+                <h3>서브웨이 클럽</h3>
+                <p id="papayawhip">설명 : 명실공히 시그니처 써브 ! 터키, 비프, 포크 햄의 완벽함</p>
+                <p id="peru">칼로리 : 350kcal</p>
+                <p id="rebeccapurple">추천소스</p>
+                <nav>
+                    <ul>
+                        <li>렌치드레싱</li>
+                        <li>스위트어니언</li>
+                    </ul>
+                </nav>
+                <img src = "http://subway.co.kr/images/menu/sandwich_cl02.jpg" alt="비엘티">
+            </artcle>
+        </section>
+        <section>
+            <p>내가 좋아하는 서브웨이 센드위치를 적어주세요!</p>
+            <input type="text" placeholder="샌드위치 종류" />
+            <button>제출</button>
+        </section>
+    </main>
+    <footer>
+        <h3>매쉬업 웹 스터디</h3>
+        <p>2020.06.16</p>
+        <p>CSS-1</p>
+    </footer>
+</body>
+</html>
