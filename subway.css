@@ -1,3 +1,61 @@
-/* 여기에 코드를 입력해 주세요 */
-* {
+* { background-color: #f7d343;
+}
+h1 { 
+    font-family: 'Archivo Black', sans-serif;
+    text-align : center;
+    color : #168119;
+    font-size : 50px;
+}
+header>p { 
+    border : 5px solid #168119
+}
+a:hover {
+    color:royalblue;
+}
+a:visited{
+    color:#168119;
+}
+nav{
+    text-align:center;
+}
+nav>h2{
+    color:palevioletred;
+    text-decoration:underline;
+}
+nav>ol{
+    list-style:none;
+    font-size:1.3em;
+    font-style:italic;
+    font-weight:bold;
+}
+#eggmayo{
+    border:5px solid rgb(255, 255, 152);
+}
+#rotisserie{
+    border:5px solid lightcoral;
+}
+#club{
+    border:5px solid rgb(255, 164, 122);
+}
+.description{
+    background-color:papayawhip;
+}
+.kcal{
+    background-color:peru;
+}
+.sauce{
+    color:rebeccapurple;
+}
+ul{
+     list-style-type:square;
+}
+img{
+    width:30%; height:20%;
+}
+.mysub>input:focus{
+    background-color:#168119;
+}
+footer{
+    text-align:right;
+    border: 5px solid rgb(22, 124, 76);
 }
