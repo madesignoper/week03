@@ -1,3 +1,74 @@
-/* 여기에 코드를 입력해 주세요 */
+
 * {
+    background-color: #f7d343;
+    font-family: 'Noto Sans KR', sans-serif;
+} 
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #168119;
+    font-size: 50px;
+}
+header p {
+    border: 5px solid #168119;
+    line-height: 160%;
+}
+header a:hover {
+    color: royalblue;
+}
+header a:visited {
+    color: #168119;
+}
+
+.sandwich_type nav h3 {
+    text-align: center;
+    color: palevioletred;
+    text-decoration: underline;
+}
+.sandwich_type nav ol {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+    list-style: none;
+}
+
+#eggmayo {
+    border: 5px solid violet
+}
+#rotisserie {
+    border: 5px solid blue
+}
+#club {
+    border: 5px solid orangered
+}
+
+.description {
+    background-color: papayawhip;
+}
+.kcal {
+    background-color: peru;
+}
+.sauce {
+   color: rebeccapurple;
+}
+.sauce ul{
+    list-style: square;
+}
+article img {
+    width: 30%;
+    height: 20%;
+}
+
+.mysub {
+    border: 5px solid orange
+}
+.mysub input:focus {
+    background-color: #168119;
+}
+
+footer {
+    text-align: right;
+    border: 5px solid skyblue;
 }
