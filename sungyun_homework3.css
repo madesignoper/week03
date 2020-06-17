@@ -1,0 +1,28 @@
+*{background-color:#f7d343 ; font-family: 'Gothic A1', sans-serif;}
+
+h1{text-align: center; color: #168119; font-size: 50px; font-weight: 800;}
+
+header>p{border:5px solid #168119; font-weight: 500;}
+
+a:hover {color: royalblue;}
+a:visited{color: #168119;}
+
+nav{text-align: center;}
+nav>h2{color: palevioletred; text-decoration-line: underline;}
+nav>ol{font-size: 1.3em; font-style: italic;list-style: none;font-weight: 500;}
+
+#eggmayo{border: 5px solid orangered;}
+#rotisserie{border: 5px solid black;}
+#club{border:  5px solid pink;}
+
+.explane{background-color: papayawhip;}
+.cal{background-color: peru;}
+.sauce{color: rebeccapurple;}
+
+section ul{list-style: square;}
+
+img{width: 30%; height: 20%;}
+
+input:active{background-color: #168119; color: white;}
+
+footer{text-align: right; border: 5px solid dee;}
